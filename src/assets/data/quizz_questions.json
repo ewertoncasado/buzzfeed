@@ -1,0 +1,105 @@
+{
+  "title":"Você seria um herói ou vilão no universo de Dragon Ball Z?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual poder você escolheria para sua luta?",
+      "options":[
+        {"id": 1, "name":"Kamehameha", "alias":"A"},
+        {"id": 2, "name":"Transformar-se em Super Saiyajin", "alias":"B"},
+        {"id": 3, "name":"Destruição em massa com o Dodonpa", "alias":"A"},
+        {"id": 4, "name":"Curar feridas com o poder do Kaio-Ken", "alias":"B"},
+        {"id": 5, "name":"Lançar raios de energia pelas mãos", "alias":"A"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Quem você salvaria em uma batalha mortal?",
+      "options":[
+        {"id": 1, "name":"Os mais fracos", "alias":"B"},
+        {"id": 2, "name":"Somente a si mesmo", "alias":"A"},
+        {"id": 3, "name":"Aqueles que mais me ajudam", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual seria a sua maior preocupação ao enfrentar outro guerreiro poderoso?",
+      "options":[
+        {"id": 1, "name":"Destruir a cidade", "alias":"A"},
+        {"id": 2, "name":"Garantir que ninguém fique ferido", "alias":"B"},
+        {"id": 3, "name":"Socar a cara do inimigo", "alias":"A"},
+        {"id": 4, "name":"Não destruir meu traje de combate", "alias":"A"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual é o seu objetivo principal?",
+      "options":[
+        {"id": 1, "name":"Obter mais poder e dominar o universo", "alias":"A"},
+        {"id": 2, "name":"Proteger a Terra e seus habitantes", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual seria seu apelido entre os guerreiros?",
+      "options":[
+        {"id": 1, "name":"O imbatível", "alias":"A"},
+        {"id": 2, "name":"Protetor da Terra", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual seria seu maior objetivo no universo de Dragon Ball Z?",
+      "options":[
+        {"id": 1, "name":"Dominar o universo", "alias":"A"},
+        {"id": 2, "name":"Proteger todos os seres vivos", "alias":"B"},
+        {"id": 3, "name":"Vingar-se dos que me desafiaram", "alias":"A"},
+        {"id": 4, "name":"Fazer a justiça prevalecer", "alias":"B"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Como você lidaria com a dor durante uma batalha?",
+      "options":[
+        {"id": 1, "name":"Usaria a dor como combustível para vencer", "alias":"A"},
+        {"id": 2, "name":"Tentaria superá-la e continuar", "alias":"B"},
+        {"id": 3, "name":"Usaria a dor para destruir meu inimigo", "alias":"A"},
+        {"id": 4, "name":"Tentaria ajudar os outros a lidar com a dor", "alias":"B"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Como reagiria se fosse traído por um aliado?",
+      "options":[
+        {"id": 1, "name":"Vingança implacável", "alias":"A"},
+        {"id": 2, "name":"Tentaria entender os motivos", "alias":"B"},
+        {"id": 3, "name":"Ignoraria e seguiria em frente", "alias":"B"},
+        {"id": 4, "name":"Destruiria tudo o que me foi tirado", "alias":"A"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Como você usaria seu poder no universo de Dragon Ball?",
+      "options":[
+        {"id": 1, "name":"Para controlar e manipular outros", "alias":"A"},
+        {"id": 2, "name":"Para proteger os inocentes e garantir a paz", "alias":"B"},
+        {"id": 3, "name":"Para alcançar mais poder e dominar", "alias":"A"},
+        {"id": 4, "name":"Para criar um mundo mais justo", "alias":"B"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Se você encontrasse um inimigo muito mais forte que você, o que faria?",
+      "options":[
+        {"id": 1, "name":"Fugiria e prepararia uma estratégia", "alias":"B"},
+        {"id": 2, "name":"Lutaria até o fim, mesmo sem chance", "alias":"A"},
+        {"id": 3, "name":"Procuraria aliados para derrotá-lo", "alias":"B"},
+        {"id": 4, "name":"Destruiria qualquer um que me desafiasse", "alias":"A"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente seria um vilão no universo de Dragon Ball Z!",
+    "B": "Você muito provavelmente seria um herói no universo de Dragon Ball Z!"
+  }
+}
