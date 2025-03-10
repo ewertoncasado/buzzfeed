@@ -1,47 +1,50 @@
-# ProjetoBuzzfeed
+# Questionário: Você seria um herói ou vilão no universo de Dragon Ball Z?
 
-%% README with Mermaid
+Este é um projeto simples de questionário interativo que determina se você seria um herói ou vilão no universo de *Dragon Ball Z*. Com base nas suas respostas, o sistema irá analisar suas escolhas e gerar um resultado indicando o papel que você desempenharia nesse universo.
 
-# Quiz: Would You Be a Hero or Villain in the Dragon Ball Z Universe?
+## Como funciona?
 
-This project allows users to answer a series of questions and discover whether they would be a hero or villain in the *Dragon Ball Z* universe. Based on the answers, the system determines the role the user would play in the world of the series.
+O questionário contém uma série de perguntas sobre o seu comportamento, escolha de poderes, reações a situações extremas e objetivos. Com base nas suas respostas, você será classificado como **herói** ou **vilão** no mundo de *Dragon Ball Z*. 
 
-## Flowchart of How It Works
+### Exemplos de Perguntas:
+- Qual poder você escolheria para sua luta?
+- Quem você salvaria em uma batalha mortal?
+- Como você reagiria ao ser traído por um aliado?
 
-```mermaid
-graph TD
-    A[Start] --> B[Answer the questions]
-    B --> C{Are you more of a hero or a villain?}
-    C --> D[Hero]
-    C --> E[Villain]
-    D --> F[You are a hero in the Dragon Ball Z universe!]
-    E --> G[You are a villain in the Dragon Ball Z universe!]
+## Estrutura do Projeto
 
+O projeto utiliza uma estrutura simples de **JSON** para armazenar as perguntas, opções e resultados. O objetivo é permitir que você crie um questionário interativo e obtenha uma resposta baseada em escolhas feitas pelos usuários.
 
+### Exemplo de Estrutura do Arquivo JSON:
 
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```json
+{
+  "title": "Você seria um herói ou vilão no universo de Dragon Ball Z?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual poder você escolheria para sua luta?",
+      "options": [
+        {"id": 1, "name": "Kamehameha", "alias": "A"},
+        {"id": 2, "name": "Transformar-se em Super Saiyajin", "alias": "B"},
+        {"id": 3, "name": "Destruição em massa com o Dodonpa", "alias": "A"},
+        {"id": 4, "name": "Curar feridas com o poder do Kaio-Ken", "alias": "B"},
+        {"id": 5, "name": "Lançar raios de energia pelas mãos", "alias": "A"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Quem você salvaria em uma batalha mortal?",
+      "options": [
+        {"id": 1, "name": "Os mais fracos", "alias": "B"},
+        {"id": 2, "name": "Somente a si mesmo", "alias": "A"},
+        {"id": 3, "name": "Aqueles que mais me ajudam", "alias": "B"}
+      ]
+    },
+    ...
+  ],
+  "results": {
+    "A": "Você muito provavelmente seria um vilão no universo de Dragon Ball Z!",
+    "B": "Você muito provavelmente seria um herói no universo de Dragon Ball Z!"
+  }
+}
